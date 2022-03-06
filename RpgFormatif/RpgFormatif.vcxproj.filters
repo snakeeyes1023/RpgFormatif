@@ -1,0 +1,120 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Fichiers sources">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Fichiers de ressources">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\Role">
+      <UniqueIdentifier>{b6537bdf-48ee-47ec-9488-f57a8917bef4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\Acteur">
+      <UniqueIdentifier>{c51589a8-3988-4964-99a6-b36fc2d069c6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\Inventaire">
+      <UniqueIdentifier>{a7d0088b-4049-4527-b939-340115b17d0e}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="RpgFormatif.cpp">
+      <Filter>Fichiers sources</Filter>
+    </ClCompile>
+    <ClCompile Include="Acteur.cpp">
+      <Filter>Fichiers sources</Filter>
+    </ClCompile>
+    <ClCompile Include="Classe.cpp">
+      <Filter>Fichiers sources</Filter>
+    </ClCompile>
+    <ClCompile Include="Arme.cpp">
+      <Filter>Fichiers sources</Filter>
+    </ClCompile>
+    <ClCompile Include="Armure.cpp">
+      <Filter>Fichiers sources</Filter>
+    </ClCompile>
+    <ClCompile Include="Personnage.cpp">
+      <Filter>Fichiers sources</Filter>
+    </ClCompile>
+    <ClCompile Include="Item.cpp">
+      <Filter>Fichiers sources</Filter>
+    </ClCompile>
+    <ClCompile Include="Ennemie.cpp">
+      <Filter>Fichiers sources</Filter>
+    </ClCompile>
+    <ClCompile Include="Magicien.cpp">
+      <Filter>Fichiers sources</Filter>
+    </ClCompile>
+    <ClCompile Include="Guerrier.cpp">
+      <Filter>Fichiers sources</Filter>
+    </ClCompile>
+    <ClCompile Include="Assassin.cpp">
+      <Filter>Fichiers sources</Filter>
+    </ClCompile>
+    <ClCompile Include="Sorcier.cpp">
+      <Filter>Fichiers sources</Filter>
+    </ClCompile>
+    <ClCompile Include="Ombre.cpp">
+      <Filter>Fichiers sources</Filter>
+    </ClCompile>
+    <ClCompile Include="Chevalier.cpp">
+      <Filter>Fichiers sources</Filter>
+    </ClCompile>
+    <ClCompile Include="TypeRessource.cpp">
+      <Filter>Fichiers sources</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Classe.h">
+      <Filter>Fichiers d%27en-tête\Role</Filter>
+    </ClInclude>
+    <ClInclude Include="Magicien.h">
+      <Filter>Fichiers d%27en-tête\Role</Filter>
+    </ClInclude>
+    <ClInclude Include="Guerrier.h">
+      <Filter>Fichiers d%27en-tête\Role</Filter>
+    </ClInclude>
+    <ClInclude Include="Acteur.h">
+      <Filter>Fichiers d%27en-tête\Acteur</Filter>
+    </ClInclude>
+    <ClInclude Include="Personnage.h">
+      <Filter>Fichiers d%27en-tête\Acteur</Filter>
+    </ClInclude>
+    <ClInclude Include="Ennemie.h">
+      <Filter>Fichiers d%27en-tête\Acteur</Filter>
+    </ClInclude>
+    <ClInclude Include="Arme.h">
+      <Filter>Fichiers d%27en-tête\Inventaire</Filter>
+    </ClInclude>
+    <ClInclude Include="Armure.h">
+      <Filter>Fichiers d%27en-tête\Inventaire</Filter>
+    </ClInclude>
+    <ClInclude Include="Item.h">
+      <Filter>Fichiers d%27en-tête\Inventaire</Filter>
+    </ClInclude>
+    <ClInclude Include="Assassin.h">
+      <Filter>Fichiers d%27en-tête\Role</Filter>
+    </ClInclude>
+    <ClInclude Include="Sorcier.h">
+      <Filter>Fichiers d%27en-tête\Role</Filter>
+    </ClInclude>
+    <ClInclude Include="Ombre.h">
+      <Filter>Fichiers d%27en-tête\Role</Filter>
+    </ClInclude>
+    <ClInclude Include="Chevalier.h">
+      <Filter>Fichiers d%27en-tête\Role</Filter>
+    </ClInclude>
+    <ClInclude Include="TypeRessource.h">
+      <Filter>Fichiers d%27en-tête\Role</Filter>
+    </ClInclude>
+    <ClInclude Include="Qualite.h">
+      <Filter>Fichiers d%27en-tête\Inventaire</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
